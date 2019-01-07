@@ -1,0 +1,69 @@
+what content to have
+what content you need
+Price for consultation
+
+Needs assessment: Basics
+Create Wire Frames
+Photoshop or illustrator image to describe how it is
+Pixel perfect
+Pixels are abstract; always looks the same no matter what
+Don't use pixels.
+they sign each image
+Don't do anything till they recieve half price first
+week to two weeks to finish site
+GoDaddy is bad site to use, all just templates
+Boiler plates -- > border plates?
+Logo
+h1, only one h1 on any one page, Every page has to has one
+h2, and h3 + you can have as much as you want
+If you have h4 and h5 you have to worry.
+Only ever used H5 twice in his life.
+
+
+Footer
+contact information
+Button to top of page
+No more than 4 images
+360px width
+Logo, but with hamburger
+Mobile first approach
+The smallest of the mobiles is 360 pixels, most are 480
+One column objects
+
+768px wide page
+1024px height
+
+Logo , and enough room for nav
+Java script slider
+Custom Video, show or something going on
+More complex on this device, more power and bandwidth, this device is coming over mobile and one is coming over wifi.
+images more complex, asemetrical grid
+3 column images
+BFF= Big fat footer
+
+1024 px wide
+
+viewing: 20 to 36 inches away
+3800/4000 stock
+bigger = higher quality slide show
+viewing: 7 to 11 ft
+mobile, tablet, full size page
+Code 
+elegant, fast, little code as possible to do the job
+
+people only wait 4 seconds now
+
+1 to one and a half second to skim page
+Don't overload them
+make paragraph if need
+javascript how it will behave
+CSS how it will look
+you need both
+spelling and grammar helps you get higher in search index.
+Web standards
+Search engine = police
+Comment complex codes
+Do something different, put comment
+Get used to change
+Not teaching anything 5 years ago
+CSS lint
