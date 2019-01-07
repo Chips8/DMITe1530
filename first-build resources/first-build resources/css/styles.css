@@ -1,0 +1,31 @@
+body {
+    background-image: url(../img/page-background.jpg);
+    background-repeat: repeat-x;
+    margin-bottom: 200px;    
+    padding-left: 48px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    font-family: arial, sans-serif;
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+.hidden {
+    display: none;
+}
+header{
+    margin-top: 17px;
+    border-style: solid;
+    border-width: 3px;    
+    padding-left: 77px;
+}
+main{
+    margin-top:23px;
+    height: 1352px;
+    padding-left: 77px;
+    border-style: solid;
+    border-width: 3px;    
+}
