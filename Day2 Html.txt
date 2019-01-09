@@ -1,0 +1,133 @@
+wixx, godaddy are all templates, all are pretty much the same. They make okay sites, not good sites.
+Boiler plate = starting point
+Boiler point will grow
+Boiler point updated: Include with all the things you need.
+Things in specific order, make it fast.
+Stuff out of date = not include material = not gonna work.
+Boiler plate last year = different from this year.
+Folder name is intuitive
+UNIX system: All caps, so he can tell difference.
+Language = english right in beginning = load time faster
+This is all about speed.
+utf-8 = keyboard and language
+
+		<meta http-equiv="x-ua-compatible"> is for compatibility with chrome
+- no need for html.shiv anymore, it's built into javascript
+Title has to be unique and relate to content.
+If not, search engine will point you lower.
+Title tag is change me? = lose marks, I guess it means he will label it as change me?
+<meta name="viewport">
+
+
+all manipulates browser before <meta name="viewport">
+all manipulates viewport
+
+make sure initial scale is 1:1, always goes from landscape to portrait all the time.
+Everything 
+
+2 different theories on reset
+normalize.css = gone away from it.
+It's doing more than just normalizing and resetting CSS
+They reset everything to 0 or 100% on default.
+Everything starts off at same size, so you can manipulate them from what you want it to design.
+It was initially made for a word processor.
+
+He uses Eric Meyers
+
+Spent more time removing stuff in normalization.CSS
+You can use either or, but make sure you use the latest one
+
+2philosiphy of clear fix
+clear fix then
+group camp came out after clear fix
+
+not interested in IE 6 or 7, if customer uses it, then will charge extra
+came out in 2002, not worried about supporting ancient material.
+
+When you float you take it to float to bubble to top,
+pins or anchors object inside those little thumb tacs you put into there.
+
+Why put code, why load it if not using it.
+
+Named appropriately to what it is after CSS = website link
+Keep it more simantic and the world becomes so simple. We don't have birds.css but we will, to reduce confusion
+Don't have to say what type of style sheet it is anymore
+
+Javascript sets behaviors
+So many peices of code that may not work right in IE but looks stupid in firefox but looks good in chrome
+piece of script called modernizr
+use a bunch of detects
+interrupts the code so it works loosely and consistantly among itself
+If not using flexbox WHY add them?
+Add only what you need.
+IN beginning you don't know what you're using.
+So he's built us a complete package of modernizer in session 2
+
+Taking out spaces = reduces speed
+ms saves and gets added up
+Takes IE 7 or older versions of chrome and fixes it.
+jquery a bunch of javascript to add transition to slide shows
+just using normal jquery
+no need for type in script anymore either.
+Last thing that loads outside of footer = script
+** highlight text + ctrl + / = comment **
+min = minimized file
+WE don't need jquery till everything is used, right now we won't but later we will.
+This is base starting zone.
+Never had a website without a header,main, or footer.
+grid design, 3 column grid
+1 column, flush right rigid left = one column
+traditional grid to assymetrical grid
+grids don't necessary line up
+makes it more appealing
+makes it a bit harder to design page, but it allows you to be efficient using grid layout but modifiying it for viewport
+especially large viewport to small viewport
+containers hold content
+content = objects itself
+
+No period = not paragraph then it is a header
+
+All containers objects have headings
+
+not heading, not paragraph, if it's ordered then it must be a list. 3 unique content in my page.
+3 sections of content. if only one section you don't need to use it in main.
+2 not distinct content at top.
+Headings don't have 2 parts, but lists do.
+3 different lines = lists.
+3 types of list dl, ul, and ol
+2 different tags you can target without needing to do anything else
+ 
+quickly mark up content = organizing everything
+** highlight+ alt+shit+w **
+Learn short cuts for tool you are using 
+
+
+use 2 lists because using 2 different CSS
+if not re-using don't use class, class is not used as styling hooks.
+font takes 7 arguements in 9 different ways
+arial works on every machine out there
+not gonna manipulate body because 3 objects that need center-lined
+960 is based on grid design
+will go over grid later
+easily dividable by 9, 6, 4 etc easy for nice looking grids
+equally displaces left and right with margin: 0 auto; and needs specified width
+bunch of variations on padding.
+top 40 left auto bottom 0 right auto
+
+inside specified container, they can't break
+float left and space them dynamically so they beside each other.
+This designed is constrained don't have to worry.
+default line size in reset so now everything should align with vertical-align:top for image of phone and phone number
+
+** ctrl + highlight each line + shift+alt+w to make a list for EACH line! **
+
+960 - 20 left padding and - 20 right padding = 920
+920 - 20 - 20 = 880 /3 = 293.333
+pxiel is abstract number
+different from monitor to monitor
+want to use relative numbers
+All numbers should be the same.
+margin-fix is to fix/remove the last one.
+If there is more than twice, A have to change CSS or B create a class to save code.
+Everything means something.
+Don't need styling book.
