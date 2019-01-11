@@ -1,0 +1,53 @@
+div should never be used for styling
+
+all go each in a section
+only 1 x h1 for each page
+navigation made up of multiple links, if you have only one, then you may not have to put it in nav.
+If you have multiple you have to have it in nav.
+Search Engine searches unique content to that page.
+If it is unique it's worth more. If it's a copy and paste it will rank older content higher.
+Section helps search engine filter
+If I generate content on website,
+Search engine don't care about comments, it's not part of content but it's still on the post.
+User comments, blogs, they're not important to search engine, they are put into something
+called an article.
+Newspapers, mortgage, articles, calculators all of them can be posted on other websites.
+So they are not important content.
+Copy and Paste are mainly articles.
+Search index searches for Facebook.
+aside are like weather widgets, it's not on your page, it's on everyone's pages
+advertiments is spawned from other pages so you don't know what will displayed.
+Glossary will be and aside
+sitations are in aside
+biography of the author is aside
+It is not unique, it's replicated on other poeple's pages
+If it can't fit into every other category than you use a div.
+Almost everything you use is covered.
+Don't use div as a styling book, we know CSS better than that.
+Boiler plate is a starting point. 
+Template is a design or certain look.
+With Boiler Plate you can add a theme to it.
+Reset.CSS to remove all default styles on CSS.
+Normalize is similar to reset but it does other things that mordernizr does. It's gotten bloated.
+Mordernizr all java script, backwards compatibility to old internet browsers.
+Selector, selector,
+If you keep using code over and over again make it a class, if you use it once or twice, just string selectors together.
+Reduce code you are writing.
+Descendant selector, is a string selector, example: main ol li
+Pseudo class: First child, last child(last object in list), enph(can use a number) in the list.
+Clearfix helps pins floats
+class Browserupgrade: Encourages users to update their browser.
+This is in a production code
+IT NEEDS TO BE ADDED
+
+justify-content--> x- axis
+align-content on y - axis
+start, center, end
+This does exists it's called: Flexbox
+Display: flex
+flex start, flex end
+Using flex box you can fit content in everywhere on a 9 sections box( 3 x 3)
+also space around and space between
+
+flex-direction changes start and end point.
+Doesn't matter where your content is on the script, you can reposition with this tool.
