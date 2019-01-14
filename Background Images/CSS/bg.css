@@ -1,0 +1,42 @@
+body {
+	background-image:url(../Images/number-1.png),
+					 url(../Images/number-2.png),
+					 url(../Images/number-4.png),
+					 url(../Images/number-5.png),
+					 url(../Images/Yellowhead.jpg);
+
+	background-repeat: no-repeat;
+
+	background-position:top left,
+						bottom left,
+						top right,
+						bottom right,
+					 	center center;
+
+	background-size: auto, auto, auto, auto, cover;
+	background-attachment: fixed;
+
+	font-family: arial;
+}
+main{
+	width: 60%;
+	margin: 10% auto;
+	background-color: #fffff4;
+	opacity: 0.6;
+}
+
+h2:first-child *{
+	color: #333;
+}
+h2:first-child + ol
+{
+	background: #93E2D5;
+}
+span
+{
+	color: #BED661;
+}
+
+h2:nth-child(2) + li:first-child{
+	background: #93E2D5;
+}
