@@ -1,0 +1,64 @@
+everything is read sequentially
+
+
+* aterics everything, ranking power of 0
+html is a tag, ranking power of 1, more specific
+div has a power of 10
+main p{
+has ranking of 4.
+99% of the time in style sheets
+
+if class on p tag = 14 points.
+Why some code is applied and some is not base on power ranking.
+avoid using !mportant, always over rides cascade ++, adds one.
+
+target element
+<p title = "phoo">
+property and the value
+can target tags with different properties or values
+Targetting an objects value, gives ability to target anything on the page.
+Only gonna use it once, don't need a class.
+most p tags end up having titles anyways
+a lot of pseudo classes, apply pseudo class to p tags and treat it like a list.
+So many ways to do it.
+
+ADVERTISEMENT* is <aside>
+can make it can load into a 1024px screen and not get overloaded/ can fit on the screen.
+add-on: windows resizer
+allows me to flop between 1024px page and dial it down to 768px
+full class header
+Most corporate are designed this way for users to find things and updated all the time.
+Headers and footers don't get changed all the time, but the content does.
+System that is scalable and flexible.
+some css to apply high definition pictures.
+Targetting in a modular way= targetting multiple things with one statement or one object
+
+body {background:url(../images/Yellowhead.jpg) no-repeat center center fixed;
+		background-size: cover;}
+Make sure image scales itself to whatever screen you want, so using short hand is location and repeat
+repeat is the default, so use no-repeat.
+center or 50%
+fixed = screen will move but image won't move
+background-size: cover allows for that attachment
+using multiple properties for one object
+If you want multiple objects in one object then what?
+Base image = last image in one object:
+body {
+	background-image:url(../Images/number-1.png),
+					 url(../Images/number-2.png),
+					 url(../Images/number-4.png),
+					 url(../Images/number-5.png),
+					 url(../Images/Yellowhead.jpg);
+
+	background-repeat: no-repeat;
+
+	background-position:top left,
+						bottom left,
+						top right,
+						bottom right,
+					 	center center;
+
+	background-size: auto, auto, auto, auto, cover;
+	background-attachment: fixed;
+}
+Can attach onto html, then body. Make it a composite image.
