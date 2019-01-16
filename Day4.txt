@@ -1,0 +1,52 @@
+have to have width, but not have to do height. view port can do it for you.
+Width is not the same pixel on other screens, you will get a skewing factor.
+90% of the time you have the content to fill it.
+Fixed to liquid lay out
+width 70%, always will have 70% of page horizontally 
+auto will take what is remaining it will divide what it is remaining, in other words centering it for you
+no matter what screen
+flush left ragged right
+3 unit short hand
+top left and right and bottom
+
+margin and padding will have one, two or 3 or 4 value positions.
+what is 3 again?
+ If you just put auto, it won't work because no specified height. Work differently on different objects.
+Background in itself is a short hand
+Scales with view port, first part to building a responsive site.
+Always going to have heading
+
+2% of 70%
+Don't mix pixels in with our liquid number, they do not co-exist well together.
+See all containers line up.
+Using assymetrical grid it will move around.
+can have background image and color
+if image png  you will see background behind it.
+
+Typographical scales
+lay out sizing of page
+
+any time you sent font size gonna set line-height. It is unitless. You can set it to a pixel. If you set it to /1 it's 1 spacing if it's /2 it's 2 spacings
+Will stay consistent if things keep changing.
+900 is most it can bold. Range of 100-900
+Serif or Sans-serif needs a specific boldness to make the look you want.
+
+Day to day font, use Arial and Sans-serif.
+5 declarations in one.
+
+Lose marks for no elegance, don't use unnecessary code
+make it more modular
+
+body{}
+
+main, header, footer { width:70%;
+						margin: 0 auto;
+						background: #f8f2f2;
+						padding:2%;}
+
+main{height:600px;
+		border:2px solid #999;}
+
+/* --- Typographical scales --- */
+
+h1, p {font: 900 36px/2 Arial, sans-serif;}
