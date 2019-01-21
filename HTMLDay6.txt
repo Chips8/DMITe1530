@@ -1,0 +1,75 @@
+objects, container objects
+inline or block
+inline is ones that go inside, inside on the line you are working on the p tag
+inline only takes up as much space as it needs.
+Has intrinsic width
+Inherits its widtch from parent
+anchors or images a span tag doesn't have inehrent width, fine unless you want to manage them, then you have to define them.
+CSS3 you can put a witdth on it.
+
+if give a width of 100 px or 100% is dependent on view port
+margin is pushing things around, like gravity
+
+Old-school way is fine if screen is always going to be the same.
+If you use % vs old-school way it will no longer be fine.
+
+pixel sizes on display is not regulated by anything.
+
+traditional box model is no longer okay,
+16px is default size, but no longer makes sense as pixel sizes are smaller and smaller now.
+convert 16 to 10, 10 is 62% of 16, set font size of 
+rooted ems gets away from parent sizing.
+
+@import picks it up as using malicious code, so it doesn't use it anymore.
+So we need to have a way the user can download they font they want to use, but not install the font on their computer.
+avoid using specialized thick fonts, use fonts where it can be used every where.
+https://www.fontsquirrel.com/
+
+OTF = Open type fonts = free
+WTF = only works on MACs
+SCV = scalable 
+WOEOT
+TTF
+SVG
+EOT
+
+usually 64kb is a rule, if just one font just put it in CSS folder, if linking statements, don't need to go up and down,
+IF a lot, make separate folders for font, license goes into other folder called licenses.
+
+Different fonts could be used for everything? 
+Send to addfont to add onto computer on file
+You can click resolve missing font in photoshop, can add from adobe font kit.
+Charge out fonts to customers.
+
+Another way is https://fonts.google.com/
+Can see it in different formats
+we're not using @import embeds into tag and it will get flagged, so we want to avoid that.
+
+If number of connections is an issue, have user download it.
+If sketchy connection, con-current connection is bad.
+If font is bad, connection could time out.
+If file too big, then use google method.
+
+https://fontawesome.com/icons?d=gallery&s=brands
+uses scalable vector icons, easy to use licensed products that are ready to go.
+Can download packages or the whole thing.1:39 PM 1/21/2019
+Cannot build a web-page without able to load fonts dynamically, or using a bunch of scalable vector icons to create web page.
+Learn methods to use things.
+
+2- border box stylings
+and the rems.
+
+Make sure to use inspector to slect a specific code on the page and the css on the page.
+Download webfonts example and it should say webfont example start, open that up and take a look. All the HTML is there, but if you look
+at the CSS you will outside is just the basics of CSS and all is included by default.
+Open webfont-styling to see what you need to build and the completed file.
+See which code is applied to which part.
+
+Summary
+-@font-face -> multiple connections to get done
+-@import -> direct download
+-google.doc style
+
+So border-boxing is used to help designer easily calculate the size of the content box, versus doing math adding and subtracting padding and border.
+
+why does auto not work if margin number in beginning is not zero? margin: 0 auto, must give a unit size, unless zero.
