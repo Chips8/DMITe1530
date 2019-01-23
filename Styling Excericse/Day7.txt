@@ -1,0 +1,60 @@
+Purpose:
+	- bunch of inline font objects that these things will work on.
+	- are you effecting anchor tag or are you targeting list item.
+	- Remember, role of behavior. anchor tag will only target anchor tag, not list item.
+.font-style
+	- Difference between h1.font-style and just .font-style?
+	- will only target the font-style in h1.
+	- So if you have a bunch of h1s which you shouldn't have. h1 font style will only target that font-style = more specifity.
+Italicizing in .font-style
+
+	- Italisizing in html has meaning, italisize seomthing for special meaning. Greek and Latin name, would be italisized. Usually donefor specific feel or look.
+	- Italicize is actually a new font.
+	- Oblique font is just a degree that isi changed to 32 degrees
+.font-weight
+	- Make sure you are targetting right one for right reason.
+	- Some font bolded don't look right,
+*font-size:62.5% decreases font-size 16px to 10.
+.line-height
+	-Line-height looks at size of font and increased by that. Can make line-height to zero, but can be really messy. Default = 1.
+	-Generally 1.2 or 1.5 is what you go with on web page, to improve readibility on content.
+.font-family
+	- Usually load 2-3 fonts, before was windows, mac, and then sans-serif. Depends on font you are loading, some uses quotes?
+.shorthard
+*Always going to use short-hand, won't be using above unless targetting something specific.
+	- Remember the order.
+	- .short-hand {font:italic 600 3.6rem/2 arial;}
+- Superscript nad subscript are done in html with sup and sub, when dealing with them you have to make sure the line height supports the use of sub and sup.
+- There is no css to do them.
+- He used them for Graffiti text, annoying cause every letter is sub or sup. Arches can be made just using subs.
+h1:first-letter
+How to target first word? Use span.
+h1.first-letter::first-letter {font:900 4.8rem/2 arial;}
+Should have 2, on chrome it still works. It's a pseudo element, not a class.
+.font-variant
+	- Can be used to change ever P or O to small-caps
+	- Make all headings upper case or everything to upper case or lower case, useful for cutting and pasting. Dump it into html and change it.
+	- Can be dangerous, browser sees you as having gramatical error, use it for a stylized reason but not for being lazy or you lose points on search engine.
+	- All the affiliate sites that go with it. Not gonna link to you if it's a bad site.
+Goal: Search for their company, you should be able to push everyone off their page.
+Everyting laid out on Google site
+You don't get competitiors, saturate first page completely. Generate all of that content for the client. You build yourself with a WIX page then you don't get that. Grammar and QUALITY content.
+.font-stretch someething you want to stay away from, does something different for each browser. Not all browsers support them. Different browsers interpret them differently.
+.text-indent
+	- First-indent is only used for first thought. Rare to see each and every paragraph having indents.
+.text-align
+	- Never really use text align unless writing Haiku, would use a box to move content, Almost never center align it.
+.letter-spacing
+	- Don't want to orphan one word by itself, one word increases size of container, height will be variable. Don't want to leave words on one line, can manipulate spacing on one word, or change the font that has a smalelr amount of spacing
+	- between each word, some are skinnier or thicker, when putting page together, lots of orphaned words, will need to change all of font to change it, or use letter-spacing to change it.
+	- Have to be subtle using letter-spacing like .2rem.
+.word-spacing
+	- Only gonna set it to .1rem, have to be subtle.
+A lot of way to do things. This with flexbox, you should be able to target anything on the page.
+Navigation
+	- make sure using anchors, buttons are only for forms, a lot of overhead vs anchors
+	- make sure distinction between two, that there is contract or lose marks.
+Unless using hyper-link have to change text-decoraction:none
+usually use border instead anyways, instead because you can control it. border-bottom: 2px solid #000; unless select and hold there's no point in hover
+turn off all colors #000 all rgbs = #0000, blue colors with #0000ff
+Add border to all of it so you don't get that big jump.

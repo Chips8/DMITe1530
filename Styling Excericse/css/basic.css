@@ -1,0 +1,67 @@
+
+body {font-family: arial; font-size: 100%; line-height: 1.5;}
+
+header, main, footer {width: 940px;
+						margin: 0px auto;}
+
+nav ol {list-style-type: none;  float: left;  }
+
+nav li { float: left;   }
+
+nav a {text-decoration: none;}
+
+main div {width: 938px;
+		 height: 360px;
+		 line-height: 360px;
+		background-color: #7e7e7e;
+		color: #fff;
+		text-align: center;;
+		border: 1px solid #000;  }
+
+main section section {width: 440px;
+					margin-right: 20px;
+					float: left;  }
+
+/*Navigation*/
+a:link {color: #333} /* unvisited link */
+a:visited {color: #333} 
+a:hover {color: #999} /* mouse over link */
+a:active {color: #999} /* selected link */
+
+/*header*/
+h1 {font: 700 3.5rem/2 Arial;}
+h3 {font: 700 1.2rem/2 sans-serif;
+			font-variant: small-caps;
+			letter-spacing: .05rem;}
+
+h2 {font-size: 2rem;}
+section:first-child h3{ font-size: 1.3rem; }
+p {text-indent: 2rem;
+padding: 12px 0;}
+
+nav a {text-decoration: none;
+		padding: 2rem;}
+
+ol{ display: flex;
+		justify-content: space-around;
+		flex-direction: row;
+		width: 100% }
+li{ font: 700 1.5rem/2 Arial; 
+	font-variant: small-caps;}
+
+a:link { color: #000000; 
+			background-color: #0000 } /*unvisited link*/
+			/*improving contrast ration on that object; black font and white background*/
+			/*make sure using anchors, buttons are only for forms, a lot of overhead vs anchors*/
+a:active { color: #000000;
+			background-color: #0000; } /*visited link*/
+
+a:hover { color: #000000;
+		background-color: #0000;
+		border-bottom: 2px; } /*mouse over link*/
+
+a:visited { color: #000000;
+		background-color: #0000; } /*selected link*/
+
+footer p{ color:#0000; 
+			border: #0000ff 2px;}
