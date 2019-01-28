@@ -1,0 +1,28 @@
+/*@font-face{font-family: 'body-text-font';
+			src: url('SourceSansPro-It.otf');}*/
+/*sometimes fonts has stupid names that means nothing, so make a name that semantically means something to me. */
+html{
+	box-sizing:border-box;
+	font-size: 62.5%;
+}
+*, *:before, *:after {box-sizing: border-box;}
+body{
+	/*font: 1.6rem/1.5 body-text-font; <--- for @font-face*/
+	font: 1.6rem/1.5 font-family: 'Roboto', sans-serif;
+	/* traditional coding --> font:16px/1.5 arial;*/
+	/*rem is one digit back of font pixel, such as 1.6rem = 16 font 
+	The benefit of this is to load to mobile it will look loosely consistant.
+	A lot more controls with rem vs pixel. Easier for lay out conversions.
+	Arial is used by most people, and when most people use it, from a design stand point
+	you want to spice it up a bit.*/
+}
+p{
+	width:60rem;
+	padding: 0 2.0rem;
+	border: dashed 0.2rem #666;
+	margin-left: 10rem;
+	/*width:600px;
+	padding: 0 20px;
+	border: dashed 2px #666;
+	margin-left: 100px;*/
+}
