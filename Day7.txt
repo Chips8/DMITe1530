@@ -1,0 +1,73 @@
+making nav with flexbox = easier than float
+won't help you position container outside of container
+won't help you?
+
+Contrast ratio
+Navigation sits there and fits to the screen.
+Combination of 100% and staged content.
+Footer which is again 100%
+Everything fits in at 1024 still.
+They dropped to hamburger to drop down nav, usually have it less than 1024.
+Most websites use these techniques.
+Still responsive to view port.
+Usually he wants to use 70% of the screen left and right so the main is outside of that. for Margin.
+Main needs height and width so we can see what is going on.
+1920 is size of viewport, check display size on PC
+most scroll bars are 20px wide.
+Page is usually 1900 pixels wide with the scroll bars
+15% of that is done with margins, can do some simple math 1900 * .15= 285pixels wide.
+Viewport change size = different number, using % so you can't bring in inspector and get exact pixel size anymore.
+Use math to calulate it out, it's all relative because when you take screen to 1024 it will look the same.
+Scroll bar would move, make our header 
+Fixed is used all the time for position navigation, back and forward buttons, entire social media navs that are just fixed.
+What goes along with fixed is absolute.
+Absolute, just stuck in that view port.
+Registration point is 45% and 45% different number because it is different wider than the top.
+Have to know initial size of page and do calculation to figure out.
+Z index of regular page is 1.
+Outside of dong = 2
+Z index is veritical stack of how it should be place on page.
+Z index is the depth, there is X and Y which is horizontal and vertical for example.
+Depends on order in html you have to manipulate it yourself.
+Flexbox is only good inside container.
+Even though it is absolute you can position it anywhere you want.
+Positioning techniques to move things out of container.
+IF you want to move stuff in container use flexbox.
+Relative positioning, objects that are relative to the inside of another container. Set parent to relative, otherwise absolutely image will be positioned
+outside?
+
+Relative to the main, before was absolute to the top of the page.
+Relative allows you to take it away from viewport and attach it to another container.
+Can also do relative relative, takes into account of padding and borders.
+relative, absolute doesn't take into account of padding and borders.
+Absolute puts something on the screen based off of x y co-ords, it will move with the page.
+If fixed it will stay with pages.
+Relative what object you are attached to such as viewport, unless you make container relative.
+Default is static.
+
+Positioning is nice because you can do a lot of neat stuff inside the main.
+
+min-height 
+Same margin on my body, margin-bottom
+not okay to have statements inbetween, make sure all co-ords are together so you know what is going on. = Keep it simple
+Make sure sufficient space in body, positioned footer left hand side of page.
+Footer always load there even if there is no sufficient content to load it.
+With sufficient content it will be pushed down, it's nice because it's not fixed.
+Above the fold, above the first page, make sure page is being used
+Now on use percentages, instead of autoing, so content stays on page, a lot of content = 100% and want content responsive.
+Center line content = easier for users to figure out what is most important on the page. To see the message.
+Once they start moving then you give them navigation.
+
+4positon
+fixed
+static
+absolute for locating stuff on anything on the screen
+relative locating stuff on anything on the screen relative to container.
+Can give negative percentages
+So it drops outside of container
+
+text object use rems
+when image, most images use %, later on that is how u will set widths.
+Containers ALWAYS %, some images use rem
+Use top, left, right, bottom because using margins = influence inheritance.
+Just used to speed  things up.
