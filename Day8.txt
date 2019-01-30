@@ -1,0 +1,47 @@
+search engine looks at hidden text on a page as negative points.
+Using no visabilty, you just can't see it but it takes up space still.
+Content on the page or background image/ filler, as user interact with page, make it visible so people can see what is there. Like a pop up?
+Doesn't like it unless for a structural reason.
+Don't really use it for display, a lot of code.
+Collapse, only use for tables.
+Take entire row or column and hide it.
+visability:hidden gets confused with display:hidden a lot.
+display property is blocked, space between IT
+inline objects go inside block objects, inline objects have no margins, we have hybrid named inline block
+Important difference: p tag is gone, out of the DOM, so it no longer takes up space.
+Display none is useful, don't want it to show or download on mobile, set it to none. Or set it to be shown later.
+If it's hidden you can still show it later, if none then display is not there at all.
+
+Display:block is p tags default.
+	- Block level objects, makes another line underneath.
+	- ul, dls, p tags, most big objects, big captions are all block levels
+	- all designed to go inside these, anchor, list, or span tags are inline
+
+<a href="#"></a> # give the href of all the properties enabled.
+
+Only time visited link is different is if it is going to a different website, usually stays the same especially in a nav.
+
+Hover is roll over
+active = an event, when you push button on mouse, it gets activated, make sure it is same as hover.
+Make sure color is distinct, so navigation stands out.
+
+Inline objects don't have margin, designed to go inside p tag or ol, if it have margin it would just. They have paddings but not margin.
+Block object starts a new line.
+Inline does not; Inline block objects have margins.
+Object jumping in hover, need to put it in link so it doesn't jump.
+
+Change it from inline to inline block it won't spawn a new line.
+Default go side by side
+block object will stack from a list.
+Change it to inline block and flex box to set it.
+Vertical, change it to flexbox.
+Change direction of object, manipulate display properties as well.
+So much more simpler not floating things.
+Readibility vs Load Time
+Could remove all comments and minify it.
+Would have another file to load it.
+
+Can't quote a quote, must use single quotes inside a double quote
+Onclick, execute it.
+charref on dev3.w3.org
+&=8855;
