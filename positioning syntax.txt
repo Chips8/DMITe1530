@@ -1,0 +1,7 @@
+position: relative; //Relative to box.
+position: absolute; //Un-relative to box, unless in a relative absolute relationship
+position: fixed; //Fixed to screen
+top:
+bottom:
+left:
+z-index;
