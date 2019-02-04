@@ -1,0 +1,40 @@
+temporary height in pixels because there won't be any content.
+1080 size of display, not viewport
+roughly 600px for content if header and footer take 200px each;
+Account for scroll bar.
+You want thing nice and even so no % for content width.
+margin:14% you only get 72% working space.
+You want even number.
+72 is divisible by 12, 8, 4, 3, 2, and 1. It is divisible by a lot of objects.
+So you can have 12 equal sized containers, lot's of flexibility.
+72 is better than 76, because you can't divide 76 with much numbers.
+Content is under header, allow for space for header. Margin on main, give it 200px;
+font: 1.6rem/1.5 arial; line size is 1.5 times 1.6rem.
+Line height to vertically align content in container. Operating at a font level rather than positioning things around with a bunch of other codes.
+vertical margins collapse, takes whichever one is larger. Cannot avoid vertically collapsing.
+Flex-box re-orders the width.
+Margin will affect size of content, padding will not.
+Remove margin from last object in the row, because you don't want that space over there.
+flex-direction to control if they are part of the DOM of that row or not, so don't use wrap?
+Understand when the % is being applied and when a % of a % is applied.
+Padding isn't going to change size of object.
+Composite images only work for large and complex images, but when it is simple it doesn't work so well.
+Instead of using pixels, it uses points so we use SVG instead for simple images.
+Only gonna load one of them you don't need the svg. SVG is a type of image file.
+1KB in size, which is pretty small. SVG is small, we really like them, scale nice and small. Don't take up much space.
+Can't use rems or ems in .html.
+We want to load image inside as a font, so we use font-awesome to load images as font, so it scales to content size.
+Folders like less and scss is next semester.
+Pretty complex, makes smaller packages useing less and scss. Sprite is older technology, gone away from it. Can also load javascript, not gonna do that.
+
+Some are minified .min, some are not, if you want to edit it, edit the one not minified.
+Font folder named font-awesome in Assets folder with it's own css.
+Need a link to it. Load it after liquid.css
+Takes italicized tag to rewrite it with customized. 
+fas = font awesome solid, far = font-awesome regular style
+fal = font awesome lights, inside those classes loads subclasses of them.
+Font objects, you use font-size to change it. Keeps it nice and simple.
+
+Custom image, give it an svg. Export it from illustrator. Read SVGs, use illustrator.
+Display block: and give image a row-class in CSS instead of putting it in a div with a class.
+Then you could put content in a div and name it row-1 to organize it as a row.

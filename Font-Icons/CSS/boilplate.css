@@ -1,0 +1,60 @@
+
+html {box-sizing: border-box;
+		font-size: 16px;	font-size: 62.5%;} /* 62.5% of 16 = 10 */
+
+*, *:before, *:after {box-sizing: border-box;}
+
+/*--- Authors Styles --- */
+
+body{background-color: #fef7dc;
+	font: 1.6rem/3 arial;}
+
+header, footer{
+	width: 100%;
+	height:200px;
+	background-color: #fccb1a;
+}
+
+main{
+	height: 600px;
+	width: 72%;
+	margin: 200px 14% 0;
+	padding: 4%;
+	background-color: #fde281;
+	display: flex;
+}
+p{
+
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+img{
+	flex:wrap;
+}
+main p{background-color: #b08a03;
+	margin: 0 4% 4% 0;
+	height: 48px;
+	width:100%;
+	padding-left: 4%;
+}
+.margin-fix {margin-right: 0;}
+header{
+	position: fixed;
+	top: 0;
+	z-index: 100;
+}
+.fab {
+	font-size: 100px;
+}
+/*--- Navigational behaviours --- */
+a {display: inline-block;
+	text-decoration: none;}
+
+a:link, a:visited {
+  color: #000;      /* unvisited link and a visted link */
+  }
+
+a:hover, a:active {
+  color: #fff;      /* mouse over  and selected link */
+  }
