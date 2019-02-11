@@ -1,0 +1,56 @@
+sticky is for things with not a lot of container
+parent must be set to relative
+html set position: relative
+usually 100-200 in size for footer
+body{margin: 0 0 100rem 0;}
+
+footer{position: absolute;
+		left: 0;
+		bottom: 0;
+		height: 10rem;
+		width: 100%}
+
+That it's envelope(10rem)
+css gradiant, use colorzilla tool
+
+without min-height 100% of html it won't work right
+Would work every where.
+
+Go thorugh moodle site and example there. He doesn't just do gradients, but also a lot of imagery in the back of it.
+main 100% is default so you don't have to specify it.
+32%,2%,32%,2%,32% --> 3 box/divs spacing.
+Convert into %.
+Build in rows/pre-made objects.
+h2s around 36 pixels. Not gonna fit properly at 1024.
+Set it to 2.8rem
+IF you use inline-block it will not fit, that is because, there is an extra line space. 1 and a half times of the border.
+Inline-block is a hybrid object, with padding and margin built into it.
+As a peice of text, it needs to store a little peice of line for each peice of text so it can do an italicized m. slant it and it becomes slightly
+wider, space is used for obliquing or italicized fonts. Fills more than 100% of the screen. Inspector, you don't see it, you just have to know.
+Can't make them all inline, because then we don't have margins, so we have to float them.
+add padding to make it more readable.
+
+Don't want font to over-lap on smaller screen.
+Can avoid crunch, how?
+Some will not show scroll bar
+
+You don't want the content to jump lines when you change the font, so you use inline-block for CONTENT.
+Sticky note to prevent the CRUNCH.
+
+Setting the html to position:relative and footer to position:absolute it can be absolute relative to the html position.
+
+<main class="clear-fix">
+			<!-- --- Row One --- -->
+			<div class="row-1-3"><h2>Sample Content</h2></div>
+			<div class="row-1-3"><h2>Sample Content</h2></div>
+			<div class="row-1-3 margin-fix">Sample Content</div>
+
+			<!-- --- Row Two --- -->
+			<div class="row-1-3"><h2>Sample Content</h2></div>
+			<div class="row-2-3 margin-fix">Sample Content</div>
+
+			<!-- --- Row Three --- -->
+			<div class="row-3-3"><h2>Sample Content</h2></div>
+		</main>
+
+sticky.css manipulates these variables.
