@@ -1,0 +1,26 @@
+textarea{
+
+overflow:hidden; //get rid of scroll bar
+}
+
+* is a required field.
+just putting required with no = or anything is enough for input to indicate it is a required field.
+
+<span class="form-hint"></span> // to tell someone what you want to see in there.
+
+
+container styled at bottom: presentation is using containers
+
+form generates lot's of codes, no way around it
+
+Required works 99% of the time, but some add-ons can influence it if it uses required.
+
+Making a background image asterick
+
+input:required{background:fff url(..image/green-asterick.png) no-repeat 98% center;}
+
+input:focus:invalid { background: ff url(..Images/red-x.png) no-repeat 98% center;
+box-shadow: 0 0 5px #d45252;
+border-color:#f96f22;}
+
+in input tag put in: pattern ="(Mr|Ms).+">
