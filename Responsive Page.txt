@@ -1,0 +1,42 @@
+3 items 
+reset
+jquery and mordenizr
+main with custom js
+6 calls out already
+google font is another one,
+can't load as much images as you want and what size images.
+788KB is WAY too big.
+
+Optimize any images
+
+LOAD image, state it's width, stated sexless/no units.
+Make sure images load fast, with the right size to load into.
+So width and height is a good idea.
+Now you have a box to fit into
+
+img{width: 100%;
+	height: auto;}
+USED IN EVERY image that instructor uses for website. To position it in container with correct aspect ratio.
+Really concerned about bandwidth, have SEPARATE image for MOBILE. Load mobile FIRST. If no mobile, it will ALSO download second image, loading 2 images it's
+so minimal for PCs, and on MOBILE you won't be loading the big one.
+Source to hold MULTIPLE images.
+srcset is what ACTUALLY loads the images, in the srceset u have to write the WIDTH in a NON-traditional manner, put w at the end of it.
+srcset is a media query in an html code.
+Gotta make a lot more images.
+It can increase your cost, for images to manipulate, would double image costs.
+Old method, one image maybe two.
+New methond, 4 or maybe 5 images.
+
+Doesn't increase much css code. Can ignore gradient.
+Almost never throw a full size image in there.
+Because Aspect Ratio of images, Most important image is below the fold.
+Load image specify width and height and sexless
+div image containers with 100% and height auto, you'll be fine.
+This technique always works and media query to fix everything else.
+One of the number of techniques that works out there.
+5 commercial website
+Repsonive
+Ems or REms
+Responsive
+Images
+srcset
