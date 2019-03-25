@@ -1,0 +1,10 @@
+
+2% or 4% which is 80px;
+Use consistant margin or paddings through out.
+Lay out has to BE consistent.
+Need to put media tablet query for more points on internet 
+.col:last-child{margin-right:0} to remove the margin on the last .col class.
+a way to RE-ORDER everything with a media query?
+Don't need to use divs
+www.phpfrom.org
+www.pixsy.com

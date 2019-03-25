@@ -1,0 +1,77 @@
+
+html {box-sizing: border-box;
+		font-size: 16px;	font-size: 62.5%;} /* 62.5% of 16 = 10 */
+
+*, *:before, *:after {box-sizing: border-box;}
+
+body{
+	max-width: 768px;
+	min-width: 300px;
+	margin: 0 auto;
+	font: 1.6rem/1.5 arial;
+}
+/*--- Authors Styles --- */
+
+p {background-color: #80ced6;
+height: 200px;
+text-align: center;
+line-height: 200px;
+color: #fff;
+border:2px solid #999;
+margin-bottom: 2%;
+}
+
+/*--- Grid Layout ---*/
+img{ width: 100%;
+	height:auto; }
+
+.row{margin-bottom: 2%;}
+
+.row:before,
+.row:after {content: "";
+			display: table;} /*Clearfix incorporate into code*/
+
+.row:after{clear: both;}
+
+.col{margin-right: 2%;
+	display: block;
+	float: left;}
+
+.col:last-child{margin-right: 0;}
+
+
+.one-of-three {width: 97%;}
+.two-of-three {width: 97%;}
+.three-of-three {width: 97%;}
+
+/*.push{position: relative;
+		left: 0%;}
+.pull{position: relative;
+	 	left: 0%;}*/
+
+@media screen and (min-width: 1024px)
+{
+	body{ max-width: 1920px;
+		min-width: 1024px; 
+		margin: 0 12% 0 14%;
+		}
+		.one-of-three {width: 31%;}
+		.two-of-three {width: 64%;}		
+		.three-of-three {width: 97%;}
+		.push{position: relative;
+		left: 66%;}
+		.pull{position: relative;
+	 	left: -33%;}
+}
+
+/*--- Navigational behaviours --- */
+a {display: inline-block;
+	text-decoration: none;}
+
+a:link, a:visited {
+  color: #000;      /* unvisited link and a visted link */
+  }
+
+a:hover, a:active {
+  color: #fff;      /* mouse over  and selected link */
+  }
